@@ -190,6 +190,14 @@ body {
   color: white;
   border: 2px solid blue;
 }
+/* grid  */
+.g-sec{
+  display: grid;
+  /* grid-template-columns: 1fr  1fr; */
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+
+}
 .g-sec .c-one{
   display: flex;
   justify-content: center;
@@ -212,7 +220,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 24%;
-  text-align: center;
   border: 1px solid black;
 }
 
@@ -236,10 +243,10 @@ body {
   margin: 5px;
   color: white;
   background-color: blue;
-  border: 1px solid palevioletred;
+  border: 1px solid gray;
   cursor: pointer;
   transition: 0.5s;
-  width: 200%;
+  width: 97%;
 }
 
 .cards .card .btn:hover {
